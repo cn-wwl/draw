@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="qOKYS8eUxFwfkXo6yj_E">
-    <mxGraphModel dx="980" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="140" width="360" height="170" as="geometry" />
+          <mxGeometry x="720" y="140" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9FNPHSCeA441jvZCyL8-50" target="p9FNPHSCeA441jvZCyL8-9">
           <mxGeometry relative="1" as="geometry" />
@@ -56,7 +56,12 @@
           <mxGeometry x="100" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9FNPHSCeA441jvZCyL8-9" target="p9FNPHSCeA441jvZCyL8-45">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+              <mxPoint x="680" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-9" value="nginx网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="120" height="580" as="geometry" />
@@ -170,7 +175,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-46" value="配置中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="970" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-58" value="展示层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="90" width="60" height="30" as="geometry" />
