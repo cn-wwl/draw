@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="qOKYS8eUxFwfkXo6yj_E">
-    <mxGraphModel dx="1419" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9M_XE-LLJXDGskjybHfI-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;水务物联网平台系统架构图&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="30" width="220" height="30" as="geometry" />
+          <mxGeometry x="620" y="70" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-3" value="后台管理系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="315" y="180" width="120" height="60" as="geometry" />
@@ -95,8 +95,16 @@
             <mxPoint x="1319.5" y="530" as="targetPoint" />
             <mxPoint x="1059.5" y="780" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1150" y="782" />
-              <mxPoint x="1150" y="540" />
+              <mxPoint x="1140" y="782" />
+              <mxPoint x="1140" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p9FNPHSCeA441jvZCyL8-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="p9FNPHSCeA441jvZCyL8-24" target="p9FNPHSCeA441jvZCyL8-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="805" />
+              <mxPoint x="1140" y="911" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -107,20 +115,17 @@
           <mxGeometry x="1200" y="993" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-29" value="缓存数据库&lt;div&gt;Redis&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="1200" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="p9FNPHSCeA441jvZCyL8-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="910" y="1070" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="910" y="1090" />
-              <mxPoint x="1420" y="1090" />
-              <mxPoint x="1420" y="680" />
+              <mxPoint x="1390" y="1090" />
+              <mxPoint x="1390" y="740" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="p9FNPHSCeA441jvZCyL8-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9FNPHSCeA441jvZCyL8-30" target="p9FNPHSCeA441jvZCyL8-24">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-30" value="消息队列&lt;div&gt;RocketMQ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="1200" y="881" width="120" height="60" as="geometry" />
@@ -207,7 +212,7 @@
           <mxGeometry x="420" y="1070" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-76" value="更新实时数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="800" width="60" height="30" as="geometry" />
+          <mxGeometry x="1330" y="830" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-78" value="数据存储" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1130" y="990" width="60" height="30" as="geometry" />
@@ -219,7 +224,7 @@
           <mxGeometry x="1150" y="600" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-84" value="削峰填谷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="881" width="60" height="30" as="geometry" />
+          <mxGeometry x="1130" y="880" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
