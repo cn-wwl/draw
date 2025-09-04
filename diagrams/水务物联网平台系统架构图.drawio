@@ -166,16 +166,16 @@
         <mxCell id="p9FNPHSCeA441jvZCyL8-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="790" width="350" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="p9FNPHSCeA441jvZCyL8-35" value="电信物联平台(CTWing)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="p9FNPHSCeA441jvZCyL8-35" value="电信物联平台(CTWing)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="330" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p9FNPHSCeA441jvZCyL8-37" value="移动物联平台(ONENET&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="p9FNPHSCeA441jvZCyL8-37" value="移动物联平台(ONENET)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="500" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p9FNPHSCeA441jvZCyL8-38" value="阿里云&lt;div&gt;(AIot)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="p9FNPHSCeA441jvZCyL8-38" value="阿里云&lt;div&gt;(AIot)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="330" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p9FNPHSCeA441jvZCyL8-39" value="EMQX&lt;div&gt;(自建)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="p9FNPHSCeA441jvZCyL8-39" value="EMQX&lt;div&gt;(自建)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="500" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p9FNPHSCeA441jvZCyL8-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;exitX=1.003;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="p9FNPHSCeA441jvZCyL8-40" target="p9FNPHSCeA441jvZCyL8-30" edge="1">
