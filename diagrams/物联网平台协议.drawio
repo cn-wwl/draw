@@ -4,20 +4,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SnEuOwe-7pzeBIlmCbed-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="310" width="140" x="60" y="200" as="geometry" />
+        <mxCell id="LlqKXtfbUc08KF6wca09-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="320" width="170" x="950" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="SnEuOwe-7pzeBIlmCbed-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="250" width="120" x="354" y="230" as="geometry" />
+        <mxCell id="LlqKXtfbUc08KF6wca09-5" edge="1" parent="1" source="SnEuOwe-7pzeBIlmCbed-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SnEuOwe-7pzeBIlmCbed-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnEuOwe-7pzeBIlmCbed-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="640" y="230" as="geometry" />
+        <mxCell id="SnEuOwe-7pzeBIlmCbed-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="320" width="140" x="60" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="SnEuOwe-7pzeBIlmCbed-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="640" y="330" as="geometry" />
+        <mxCell id="LlqKXtfbUc08KF6wca09-8" edge="1" parent="1" source="SnEuOwe-7pzeBIlmCbed-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LlqKXtfbUc08KF6wca09-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnEuOwe-7pzeBIlmCbed-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="640" y="420" as="geometry" />
+        <mxCell id="SnEuOwe-7pzeBIlmCbed-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="320" width="450" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SnEuOwe-7pzeBIlmCbed-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="业务系统" vertex="1">
+          <mxGeometry height="60" width="120" x="975" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SnEuOwe-7pzeBIlmCbed-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="业务系统" vertex="1">
+          <mxGeometry height="60" width="120" x="975" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="SnEuOwe-7pzeBIlmCbed-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="业务系统" vertex="1">
+          <mxGeometry height="60" width="120" x="975" y="430" as="geometry" />
         </mxCell>
         <mxCell id="SnEuOwe-7pzeBIlmCbed-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设备" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="230" as="geometry" />
@@ -27,6 +36,18 @@
         </mxCell>
         <mxCell id="SnEuOwe-7pzeBIlmCbed-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设备" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="LlqKXtfbUc08KF6wca09-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="电信物联平台" vertex="1">
+          <mxGeometry height="60" width="120" x="416.5" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="LlqKXtfbUc08KF6wca09-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="移动物联平台" vertex="1">
+          <mxGeometry height="60" width="120" x="633.5" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="LlqKXtfbUc08KF6wca09-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MQTT Server" vertex="1">
+          <mxGeometry height="60" width="120" x="416.5" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="LlqKXtfbUc08KF6wca09-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="直连" vertex="1">
+          <mxGeometry height="60" width="120" x="633.5" y="405" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
