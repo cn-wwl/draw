@@ -58,6 +58,9 @@
         <mxCell id="LlqKXtfbUc08KF6wca09-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自定义" vertex="1">
           <mxGeometry height="30" width="60" x="260" y="370" as="geometry" />
         </mxCell>
+        <mxCell id="LlqKXtfbUc08KF6wca09-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP、WebSocket、MQ" vertex="1">
+          <mxGeometry height="30" width="150" x="770" y="325" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
