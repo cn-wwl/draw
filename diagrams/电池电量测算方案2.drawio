@@ -1,9 +1,257 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="CJTt0Y1e_nSTC3EHAazc">
-    <mxGraphModel>
+    <mxGraphModel dx="2046" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-1" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJUP-OBpyC3OTBr9TddZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="iot-device" vertex="1">
+          <mxGeometry height="60" width="120" x="1560" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-3" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-4" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJUP-OBpyC3OTBr9TddZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="access-iot" vertex="1">
+          <mxGeometry height="60" width="120" x="2170" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MySql" vertex="1">
+          <mxGeometry height="230" width="140" x="1550" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="TDengine" vertex="1">
+          <mxGeometry height="230" width="140" x="2160" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MQ" vertex="1">
+          <mxGeometry height="30" width="60" x="1907" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-9" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;设备电池电量表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备编号&lt;/p&gt;&lt;p&gt;换电次数&lt;/p&gt;&lt;p&gt;最新换电时间&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;采集间隔&lt;/p&gt;&lt;p&gt;电池容量(减损后)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="255" width="180" x="1320" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-11" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2520" y="1360" />
+              <mxPoint x="2520" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="redis缓存" vertex="1">
+          <mxGeometry height="60" width="760" x="1560" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-13" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="设备" vertex="1">
+          <mxGeometry height="60" width="120" x="2170" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上报数据" vertex="1">
+          <mxGeometry height="30" width="60" x="2240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量数据处理&lt;/h1&gt;&lt;p&gt;获取设备电池电量缓存数据&lt;/p&gt;&lt;p&gt;1.判断nbSendTime是否小于上一次上报的，如果是则将上一次的上报数据作为偏移量存储。&lt;/p&gt;&lt;p&gt;2.将最新上报的nbSendTime作为最后上报数&lt;/p&gt;&lt;p&gt;3.根据设备电量的偏移量+最新上报次数/可上报次数做电量百分比计算&lt;/p&gt;&lt;p&gt;4.低电量报警记录生成&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="250" width="180" x="2260" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-17" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="设备安装" vertex="1">
+          <mxGeometry height="60" width="120" x="1200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-19" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="设备换电" vertex="1">
+          <mxGeometry height="60" width="120" x="1200" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量校验&lt;/h1&gt;&lt;p&gt;根据设备电池电量表查看当前电池已上报次数/可上报次数的结果进行判断，低于低电量报警阈值&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(未设置为20%)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;则提示电量过低，请换电后再安装。&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="1340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电处理&lt;/h1&gt;&lt;p&gt;1.更新换电次数、最新换电时间，将上报次数_偏移量、最后上报次数改为0&lt;/p&gt;&lt;p&gt;2.将上一次换电的相关信息存储到换电记录表中&lt;/p&gt;&lt;p&gt;3.更新redis缓存&lt;/p&gt;" vertex="1">
+          <mxGeometry height="180" width="180" x="1350" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电记录表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备电池电量id&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;电池容量(减损后)&lt;/p&gt;&lt;p&gt;换电时间&lt;/p&gt;" vertex="1">
+          <mxGeometry height="210" width="180" x="1110" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;异步更新电池电量（db+redis）&lt;/h1&gt;&lt;p&gt;1.偏移量&lt;/p&gt;&lt;p&gt;2.最新上报次数&lt;/p&gt;&lt;p&gt;3.若更新尚未处理，且已进行换电操作，需根据已缓存数据更新换电记录表，保证换电前的上报次数正确性。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="310" width="180" x="1860" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-25" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="240" width="700" x="490" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-26" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="700" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-27" parent="PJUP-OBpyC3OTBr9TddZ-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="设备类型" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-28" parent="PJUP-OBpyC3OTBr9TddZ-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="电池规格" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-29" parent="PJUP-OBpyC3OTBr9TddZ-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="电池原始容量(mAh)" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-50" parent="PJUP-OBpyC3OTBr9TddZ-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="减损比例(%)" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-56" parent="PJUP-OBpyC3OTBr9TddZ-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="电池减损容量(mAh)" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-30" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="700" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-31" parent="PJUP-OBpyC3OTBr9TddZ-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="压力PM" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-32" parent="PJUP-OBpyC3OTBr9TddZ-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ER34615+HPC1520" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-33" parent="PJUP-OBpyC3OTBr9TddZ-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-51" parent="PJUP-OBpyC3OTBr9TddZ-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-57" parent="PJUP-OBpyC3OTBr9TddZ-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-34" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="700" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-35" parent="PJUP-OBpyC3OTBr9TddZ-34" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="井盖" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-36" parent="PJUP-OBpyC3OTBr9TddZ-34" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ER18505*2+HPC1520" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-37" parent="PJUP-OBpyC3OTBr9TddZ-34" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-52" parent="PJUP-OBpyC3OTBr9TddZ-34" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-58" parent="PJUP-OBpyC3OTBr9TddZ-34" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-38" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="700" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-39" parent="PJUP-OBpyC3OTBr9TddZ-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="闷盖" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-40" parent="PJUP-OBpyC3OTBr9TddZ-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ER34615+HPC1520" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-41" parent="PJUP-OBpyC3OTBr9TddZ-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-53" parent="PJUP-OBpyC3OTBr9TddZ-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-59" parent="PJUP-OBpyC3OTBr9TddZ-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-42" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="700" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-43" parent="PJUP-OBpyC3OTBr9TddZ-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="噪声" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-44" parent="PJUP-OBpyC3OTBr9TddZ-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ER34615+HPC1520" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-45" parent="PJUP-OBpyC3OTBr9TddZ-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-54" parent="PJUP-OBpyC3OTBr9TddZ-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-60" parent="PJUP-OBpyC3OTBr9TddZ-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-46" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" vertex="1">
+          <mxGeometry height="40" width="700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-47" parent="PJUP-OBpyC3OTBr9TddZ-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="RTU" vertex="1">
+          <mxGeometry height="40" width="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-48" parent="PJUP-OBpyC3OTBr9TddZ-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ER34615*2+HPC1520" vertex="1">
+          <mxGeometry height="40" width="140" x="140" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-49" parent="PJUP-OBpyC3OTBr9TddZ-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="280" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-55" parent="PJUP-OBpyC3OTBr9TddZ-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="420" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-61" parent="PJUP-OBpyC3OTBr9TddZ-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
+          <mxGeometry height="40" width="140" x="560" as="geometry">
+            <mxRectangle height="40" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
