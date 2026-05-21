@@ -82,7 +82,7 @@
           <mxGeometry height="310" width="180" x="1860" y="580" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-25" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="240" width="700" x="490" y="580" as="geometry" />
+          <mxGeometry height="240" width="700" x="370" y="390" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-26" parent="PJUP-OBpyC3OTBr9TddZ-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
           <mxGeometry height="40" width="700" as="geometry" />
@@ -253,7 +253,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-62" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量损耗估算工时&lt;/h1&gt;&lt;p&gt;当前电池容量 = 上一次计算电池容量 - 采集次数 * 采集功耗 - 上报功耗 - 容降功耗&amp;nbsp;&lt;/p&gt;&lt;p&gt;采集次数 = (本次采集时间 - 上一次采集时间)秒 / 采样间隔(秒)&lt;/p&gt;&lt;p&gt;容降功耗 = 电池容量（减损后）* 2% / 365 / 24&amp;nbsp; /60* (本次采集时间 - 上一次采集时间)分钟&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="250" width="760" x="970" y="40" as="geometry" />
+          <mxGeometry height="250" width="760" x="370" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;设备电池电量配置信息&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="370" y="345" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
