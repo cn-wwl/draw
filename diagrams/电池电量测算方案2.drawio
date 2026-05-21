@@ -31,7 +31,7 @@
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-9" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;设备电池电量表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备编号&lt;/p&gt;&lt;p&gt;换电次数&lt;/p&gt;&lt;p&gt;最新换电时间&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;采集间隔&lt;/p&gt;&lt;p&gt;电池容量(减损后)&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;设备电池电量表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备编号&lt;/p&gt;&lt;p&gt;换电次数&lt;/p&gt;&lt;p&gt;最新换电时间&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;采集间隔&lt;/p&gt;&lt;p&gt;电池容量(减损后)&lt;/p&gt;&lt;p&gt;当前电量(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;根据上报参数动态更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="255" width="180" x="1320" y="950" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-11" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-5">
@@ -54,7 +54,7 @@
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上报数据" vertex="1">
           <mxGeometry height="30" width="60" x="2240" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量数据处理&lt;/h1&gt;&lt;p&gt;获取设备电池电量缓存数据&lt;/p&gt;&lt;p&gt;1.判断nbSendTime是否小于上一次上报的，如果是则将上一次的上报数据作为偏移量存储。&lt;/p&gt;&lt;p&gt;2.将最新上报的nbSendTime作为最后上报数&lt;/p&gt;&lt;p&gt;3.根据设备电量的偏移量+最新上报次数/可上报次数做电量百分比计算&lt;/p&gt;&lt;p&gt;4.低电量报警记录生成&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量数据处理&lt;/h1&gt;&lt;p&gt;获取设备电池电量缓存数据&lt;/p&gt;&lt;p&gt;1.获取上一次参数上报时间&lt;/p&gt;&lt;p&gt;2.获取当前上报时间&lt;/p&gt;&lt;p&gt;3.根据电量损耗估算公式估算当前电量&lt;/p&gt;&lt;p&gt;4.存储报文数据+估算电池电量&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="250" width="180" x="2260" y="700" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-17" edge="1" parent="1" source="PJUP-OBpyC3OTBr9TddZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJUP-OBpyC3OTBr9TddZ-2">
@@ -69,16 +69,16 @@
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="设备换电" vertex="1">
           <mxGeometry height="60" width="120" x="1200" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量校验&lt;/h1&gt;&lt;p&gt;根据设备电池电量表查看当前电池已上报次数/可上报次数的结果进行判断，低于低电量报警阈值&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(未设置为20%)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;则提示电量过低，请换电后再安装。&lt;/span&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量校验&lt;/h1&gt;&lt;p&gt;根据设备电池电量表查看当前电池当前电量/电池容量的结果进行判断，低于低电量报警阈值&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(未设置为20%)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;则提示电量过低，请换电后再安装。&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="150" width="180" x="1340" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电处理&lt;/h1&gt;&lt;p&gt;1.更新换电次数、最新换电时间，将上报次数_偏移量、最后上报次数改为0&lt;/p&gt;&lt;p&gt;2.将上一次换电的相关信息存储到换电记录表中&lt;/p&gt;&lt;p&gt;3.更新redis缓存&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电处理&lt;/h1&gt;&lt;p&gt;1.更新换电次数、最新换电时间，将当前电量重置为选择的电池容量(减损后)。&lt;/p&gt;&lt;p&gt;2.将上一次换电的相关信息存储到换电记录表中&lt;/p&gt;&lt;p&gt;3.更新redis缓存&lt;/p&gt;" vertex="1">
           <mxGeometry height="180" width="180" x="1350" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电记录表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备电池电量id&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;电池容量(减损后)&lt;/p&gt;&lt;p&gt;换电时间&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;换电记录表&lt;/h1&gt;&lt;p&gt;id&lt;/p&gt;&lt;p&gt;设备电池电量id&lt;/p&gt;&lt;p&gt;电池规格&lt;/p&gt;&lt;p&gt;最后电池容量(减损后)&lt;/p&gt;&lt;p&gt;换电时间&lt;/p&gt;" vertex="1">
           <mxGeometry height="210" width="180" x="1110" y="1150" as="geometry" />
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;异步更新电池电量（db+redis）&lt;/h1&gt;&lt;p&gt;1.偏移量&lt;/p&gt;&lt;p&gt;2.最新上报次数&lt;/p&gt;&lt;p&gt;3.若更新尚未处理，且已进行换电操作，需根据已缓存数据更新换电记录表，保证换电前的上报次数正确性。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;异步更新电池电量（db+redis）&lt;/h1&gt;&lt;p&gt;1.修改当前电量&lt;/p&gt;&lt;p&gt;3.若更新尚未处理，且已进行换电操作，需根据已缓存数据更新换电记录表，保证换电前的上报次数正确性。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="310" width="180" x="1860" y="580" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-25" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
@@ -251,6 +251,9 @@
           <mxGeometry height="40" width="140" x="560" as="geometry">
             <mxRectangle height="40" width="140" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-62" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量损耗估算工时&lt;/h1&gt;&lt;p&gt;当前电池容量 = 上一次计算电池容量 - 采集次数 * 采集功耗 - 上报功耗 - 容降功耗&amp;nbsp;&lt;/p&gt;&lt;p&gt;采集次数 = (本次采集时间 - 上一次采集时间)秒 / 采样间隔(秒)&lt;/p&gt;&lt;p&gt;容降功耗 = 电池容量（减损后）* 2% / 365 / 24&amp;nbsp; /60* (本次采集时间 - 上一次采集时间)分钟&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="250" width="760" x="970" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
