@@ -342,7 +342,7 @@
             <mxRectangle height="40" width="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PJUP-OBpyC3OTBr9TddZ-62" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量损耗估算工时&lt;/h1&gt;&lt;p&gt;当前电池容量 = 上一次计算电池容量 - 采集次数 * 采集功耗 - 上报功耗 - 容降功耗&amp;nbsp;&lt;/p&gt;&lt;p&gt;采集次数 = (本次上报时间 - 上一次上报时间)秒 / 采样间隔(秒)&lt;/p&gt;&lt;p&gt;容降功耗 = 电池容量（减损后）* 2% / 365 / 24&amp;nbsp; /60* (本次采集时间 - 上一次采集时间)分钟&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="PJUP-OBpyC3OTBr9TddZ-62" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;电量损耗估算工时&lt;/h1&gt;&lt;p&gt;当前电池容量 = 上一次计算电池容量 - 采集次数 * 采集功耗 - 上报功耗&lt;/p&gt;&lt;p&gt;采集次数 = (本次上报时间 - 上一次上报时间)秒 / 采样间隔(秒)&lt;/p&gt;&lt;p&gt;容降功耗 = 电池容量（减损后）* 2% / 365 / 24&amp;nbsp; /60* (本次采集时间 - 上一次采集时间)分钟&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;采集次数(压力PM100/PM200普通采集模式) = (本次上报时间 - 上一次上报时间)分钟&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;采集次数(压力PM200高频采集模式) = (本次上报时间 - 上一次上报时间)秒&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="250" width="760" x="-50" y="755" as="geometry" />
         </mxCell>
         <mxCell id="PJUP-OBpyC3OTBr9TddZ-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;设备电池电量配置信息&lt;/h1&gt;" vertex="1">
