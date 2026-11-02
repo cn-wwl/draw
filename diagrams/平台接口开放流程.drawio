@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="8s86ldwixkVCOUFhfqUq">
+    <mxGraphModel dx="2046" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-11" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="客户提出接口对接" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-13" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="商务明确客户分类" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-14" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="技术支持明确接口及返回字段范围" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-17" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置接口及字段权限，提供接口文档给到客户" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-15" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-16" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cA1_dNT_mGdkUF3vstRh-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="平台是否满足接口条件&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="研发排期开发" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-18" edge="1" parent="1" source="cA1_dNT_mGdkUF3vstRh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="cA1_dNT_mGdkUF3vstRh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="cA1_dNT_mGdkUF3vstRh-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="354" y="638" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
